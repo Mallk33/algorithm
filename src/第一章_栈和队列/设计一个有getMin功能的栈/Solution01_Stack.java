@@ -13,6 +13,7 @@ public class Solution01_Stack {
     private Stack<Integer> minStack = new Stack<>();
 
     public void push(Integer data) {
+        System.out.println("test");
         if (minStack.empty()) {
             minStack.push(data);
         } else {
